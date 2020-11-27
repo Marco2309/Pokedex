@@ -1,0 +1,60 @@
+.cont-header{
+    background-image: url('https://img2.freepng.es/20180326/xre/kisspng-samsung-galaxy-s5-geometry-1080p-desktop-wallpaper-geometric-5ab8f981ce5ad1.6465997115220719378452.jpg');
+}
+
+.cont-title{
+    font-family: 'Nunito', sans-serif;
+    color: #2f6950;
+}
+
+.cont-body {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('https://images8.alphacoders.com/667/667443.jpg');
+    color: #114c33;
+}
+
+.img-cont {
+    width: 60%;
+}
+
+.img-cont img {
+    width: 100%;
+}
+.details-container{
+    width: 40%; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.stats-container {
+    height: max-content;
+}
+.span-stats{display: block;}
+.types-container {
+    height: max-content;
+}
+.span-type {
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 1rem;
+    color: black;
+}
+.Cgrass {
+    background: rgb(0,162,54);
+background: linear-gradient(180deg, rgba(0,162,54,1) 0%, rgba(40,141,58,0.9072441687950721) 28%, rgba(0,150,180,1) 100%);;
+}
+.Cpoison {background-color: rgb(53, 30, 68);}
+.Cfire {background-color: rgb(212, 137, 16);}
+.Cflying {background-color: rgb(69, 243, 243);}
+.Cwater {background-color: rgb(12, 106, 230);}
+.Cbug {background-color: rgb(95, 243, 69);}
+.Cnormal {background-color: rgb(84, 105, 104);}
+.Celectric{background-color: rgb(238, 234, 12);}
+.Cground {background-color: #f4e7da;}
+.Crock {background-color: #d5d5d4;}
+.Cfairy {background-color: #fceaff;}
+.Cdragon {background-color: #97b3e6;}
+.Cfighting{background-color: #F5F5F5;}
+.Cpsychic{background-color: #eaeda1;}

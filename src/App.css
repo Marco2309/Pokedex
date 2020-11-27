@@ -1,27 +1,50 @@
 #root{
   display: flex;
   justify-content: center;
+  background-color: rgb(49, 53, 59);
+  background-image: url(https://images8.alphacoders.com/667/667443.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .pokedex-container{
- display: grid;
- grid-template-columns: 1fr 1fr;
- column-gap: 5%;
- row-gap: 5%;
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
 }
 
 .card-container{
-  padding: 0em 1em;
+  background-image: url(https://img2.freepng.es/20180326/xre/kisspng-samsung-galaxy-s5-geometry-1080p-desktop-wallpaper-geometric-5ab8f981ce5ad1.6465997115220719378452.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-color: #c2c2c2;
+  padding: 1em;
   border-radius: 4px;
   border: solid 1px #000;
+  margin: 1rem;
+  width: 20%;
 }
 
-.card-container img{
+.img-container{
+  width: 100%;
+}
+.text-titt{
+  color: #676663;
+  font-weight: bold;
+}
+
+.img-container img{
   display: block;
   width: 100%;
 }
 
+.button-container{
+  display: flex;
+  justify-content: center;
+}
+
 .pagination-row{
+  width: 60vw;
   display: flex;
   justify-content: space-between;
   padding: 1em 2em;
