@@ -1,4 +1,4 @@
-#root{
+#root {
   display: flex;
   justify-content: center;
   background-color: rgb(49, 53, 59);
@@ -7,13 +7,13 @@
   background-size: cover;
 }
 
-.pokedex-container{
- display: flex;
- justify-content: center;
- flex-wrap: wrap;
+.pokedex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.card-container{
+.card-container {
   background-image: url(https://img2.freepng.es/20180326/xre/kisspng-samsung-galaxy-s5-geometry-1080p-desktop-wallpaper-geometric-5ab8f981ce5ad1.6465997115220719378452.jpg);
   /* background-repeat: no-repeat; */
   background-size: cover;
@@ -21,42 +21,55 @@
   padding: 1em;
   border-radius: 4px;
   border: solid 1px #000;
-  margin: 1rem;
-  width: 20%;
+  margin: 0.5rem auto;
+  width: 80%;
 }
 
-.img-container{
+.img-container {
   width: 100%;
 }
-.text-titt{
+.text-titt {
   color: #676663;
   font-weight: bold;
 }
 
-.img-container img{
+.img-container img {
   display: block;
   width: 100%;
 }
 
-.button-container{
+.button-container {
   display: flex;
   justify-content: center;
 }
 
-.pagination-row{
+.pagination-row {
   width: 60vw;
   display: flex;
   justify-content: space-between;
   padding: 1em 2em;
+  overflow-x: auto;
 }
 
-.pagination-row > .item{
+.pagination-row > .item {
   flex-basis: 8%;
   text-align: center;
   background-color: #82b0ec;
   cursor: pointer;
 }
 
-.pagination-row > .item:hover{
+.pagination-row > .item:hover {
   background-color: #c2c2c2;
+}
+
+@media (min-width: 700px) {
+  .cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .card-container {
+    width: 20%;
+    margin: 1rem;
+  }
 }
